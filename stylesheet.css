@@ -1,0 +1,13 @@
+.title {
+    color: black;
+    text-align: center;
+}
+
+#frontimg {
+    height: 550px;
+    width: auto;
+}
+
+.desc {
+    overflow-wrap: break-word;
+}
