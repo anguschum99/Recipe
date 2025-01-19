@@ -1,16 +1,47 @@
 *{
     font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.header{
+    background-color: rgba(88, 88, 88, 0.3);;
+    margin: 2rem;
+    padding: 1rem;
+    font-family:'Times New Roman', Times, serif;
+    border-radius: 0.5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+body{
+    /*background-image: linear-gradient(to right, rgb(165, 180, 252), rgb(192, 132, 252));*/
+    min-block-size: 100vb;
 }
 
 .title {
     color: black;
     text-align: center;
     text-decoration: underline;
+    margin: auto;
+}
+
+.headline {
+    text-align: center;
+}
+
+.foodpic {
+    display: block;
+    margin: auto;
 }
 
 #frontimg {
+    display: block;
     height: 550px;
     width: auto;
+    margin: auto;
+    padding-bottom: 30px;
+    border-radius: 5%;
 }
 
 .desc {
@@ -20,4 +51,50 @@
 #bologneseimg {
     height: 550px;
     width: auto;
+}
+
+.nav-list{
+    justify-content:center;
+    display: flex;
+    margin: 0px;
+    padding: 5px;
+    list-style: none;
+    flex-wrap: wrap;
+    gap: 1rem;
+
+}
+
+.nav-list li {
+    flex-shrink: 1;
+    flex-grow: 1;
+}
+
+.nav-list a{
+    transition: color 0.2 ease-in-out;
+    text-shadow: 1rem;
+    color: rgba(255, 255, 255, 0.877);
+    text-decoration: none;
+    background-color:rgba(0, 0, 0, 0.6);
+    padding-block: 0.5rem;
+    padding-inline: 1rem;
+    border-radius: 0.5rem;
+}
+
+.nav-list a:hover{
+    color: rgb(255, 255, 255);
+    text-decoration: underline;
+}
+
+.maincol {
+    display: flex;
+    gap: 2rem;
+    flex-shrink: 1;
+    flex: 1;
+}
+
+.card {
+    text-align: center;
+    flex: auto;
+    background-color: antiquewhite;
+    border-radius: 5rem;
 }
